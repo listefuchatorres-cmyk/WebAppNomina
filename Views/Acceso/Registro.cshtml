@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Registro";
+    Layout = null;
+}
+
+<link href="~/Content/css/Autenticar.css" rel="stylesheet" />
+
+<div class="login-container">
+    <div class="login-box">
+
+        <h2>REGISTRO DE USUARIO</h2>
+
+        <form>
+
+            <div class="input-group">
+                <label>Nombres</label>
+                <input type="text" name="nombres" />
+            </div>
+
+            <div class="input-group">
+                <label>Apellidos</label>
+                <input type="text" name="apellidos" />
+            </div>
+
+            <div class="input-group">
+                <label>Correo</label>
+                <input type="email" name="correo" />
+            </div>
+
+            <div class="input-group">
+                <label>Usuario</label>
+                <input type="text" name="usuario" />
+            </div>
+
+            <div class="input-group">
+                <label>Clave</label>
+                <input type="password" name="clave" />
+            </div>
+
+            <button type="submit" class="btn-login">REGISTRAR</button>
+
+            <button type="button" class="btn-register" onclick="window.location.href='/Acceso/Autenticar'">
+                VOLVER
+            </button>
+
+        </form>
+
+    </div>
+</div>

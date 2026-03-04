@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Autenticar";
+}
+
+<link href="~/Content/css/Autenticar.css" rel="stylesheet" />
+
+<div class="login-container">
+    <div class="login-box">
+        <h2>SISTEMA DE NÓMINA</h2>
+        <p class="subtitulo">Iniciar Sesión</p>
+
+        <form>
+            <div class="input-group">
+                <input type="text" placeholder="Usuario o Correo" required />
+            </div>
+
+            <div class="input-group">
+                <input type="password" placeholder="Contraseña" required />
+            </div>
+
+            <button type="submit" class="btn-login">INGRESAR</button>
+
+            <div class="extra-links">
+                <a href="/Acceso/Registro">¿No tienes cuenta? Registrarse</a>
+            </div>
+        </form>
+    </div>
+</div>
