@@ -126,8 +126,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\LogAuditoriaSalarios.cs" />
+    <Compile Include="Models\modelController.cs" />
     <Compile Include="Models\salary.cs" />
     <Compile Include="Models\DepartamentController.cs" />
+    <Compile Include="Models\usingController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -187,9 +190,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\salary\" />
     <Folder Include="Data\" />
     <Folder Include="Views\Departament\" />
+    <Folder Include="Views\model\" />
+    <Folder Include="Views\salary\" />
+    <Folder Include="Views\using\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
