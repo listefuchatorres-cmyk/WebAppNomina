@@ -4,29 +4,29 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace WebAppNomina.Controllers
+namespace WebAppNomina.Models
 {
-    public class accesoController : Controller
+    public class DepartamentController : Controller
     {
-        // GET: acceso
+        // GET: Departament
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: acceso/Details/5
+        // GET: Departament/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: acceso/Create
+        // GET: Departament/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: acceso/Create
+        // POST: Departament/Create
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -42,13 +42,13 @@ namespace WebAppNomina.Controllers
             }
         }
 
-        // GET: acceso/Edit/5
+        // GET: Departament/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: acceso/Edit/5
+        // POST: Departament/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
@@ -64,13 +64,13 @@ namespace WebAppNomina.Controllers
             }
         }
 
-        // GET: acceso/Delete/5
+        // GET: Departament/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: acceso/Delete/5
+        // POST: Departament/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {
